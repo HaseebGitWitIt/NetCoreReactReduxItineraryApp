@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{2C03F948-0E34-487E-9590-42A0D60CBAA2}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DailyItinerary" expanded="True" selected="True">
+            <Node name="DailyItinerary" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DailyItinerary FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>
