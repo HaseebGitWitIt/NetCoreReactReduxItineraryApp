@@ -1,10 +1,23 @@
-﻿<Properties StartupConfiguration="{2C03F948-0E34-487E-9590-42A0D60CBAA2}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{2C03F948-0E34-487E-9590-42A0D60CBAA2}|DailyItinerary">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DailyItinerary/Startup.cs">
+    <Files>
+      <File FileName="DailyItinerary/Startup.cs" Line="66" Column="21" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DailyItinerary" expanded="True" selected="True">
-            <Node name="DailyItinerary" expanded="True" />
+          <Node name="DailyItinerary" expanded="True">
+            <Node name="DailyItinerary" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="public" expanded="True" />
+                <Node name="src" expanded="True">
+                  <Node name="App.tsx" expanded="True" />
+                </Node>
+                <Node name="package.json" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -16,5 +29,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DailyItinerary FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.DailyItinerary PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>
