@@ -4,6 +4,8 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import Counter from './components/Counter';
 import FetchData from './components/FetchData';
+import Setting from './components/Setting';
+import News from './components/News';
 
 import './custom.css'
 
@@ -12,5 +14,7 @@ export default () => (
         <Route exact path='/' component={Home} />
         <Route path='/counter' component={Counter} />
         <Route path='/fetch-data/:startDateIndex?' component={FetchData} />
+        <Route path='/news' component={News} />
+        <Route path='/setting' component={Setting} />
     </Layout>
 );
