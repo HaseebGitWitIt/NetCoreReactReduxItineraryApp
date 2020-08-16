@@ -1,3 +1,7 @@
-﻿.td_alignment {
-    padding-left: 200px;
+﻿.weather {
+    float: right;
+}
+
+.news {
+    float: left;
 }

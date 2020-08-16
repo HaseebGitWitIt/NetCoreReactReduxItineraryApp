@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{2C03F948-0E34-487E-9590-42A0D60CBAA2}|DailyItinerary">
   <MonoDevelop.Ide.Workbench ActiveDocument="DailyItinerary/ClientApp/src/components/Setting.tsx">
     <Files>
-      <File FileName="DailyItinerary/ClientApp/src/App.tsx" Line="8" Column="12" />
-      <File FileName="DailyItinerary/ClientApp/src/components/Setting.tsx" Line="32" Column="62" />
+      <File FileName="DailyItinerary/ClientApp/src/App.tsx" Line="21" Column="1" />
+      <File FileName="DailyItinerary/ClientApp/src/store/Settings.ts" Line="38" Column="28" />
+      <File FileName="DailyItinerary/ClientApp/src/components/Setting.tsx" Line="57" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,6 +21,7 @@
                 </Node>
                 <Node name="package.json" expanded="True" />
               </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Properties" expanded="True" />
             </Node>
           </Node>
