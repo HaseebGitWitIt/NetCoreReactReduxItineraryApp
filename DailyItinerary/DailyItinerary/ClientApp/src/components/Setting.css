@@ -5,3 +5,8 @@
 .news {
     float: left;
 }
+
+button[type="submit"] {
+    margin-top: 500px;
+    margin-left: 100px;
+}

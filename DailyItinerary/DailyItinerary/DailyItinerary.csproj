@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.6" />
+    <PackageReference Include="NewsAPI" Version="0.5.0" />
   </ItemGroup>
 
   <ItemGroup>

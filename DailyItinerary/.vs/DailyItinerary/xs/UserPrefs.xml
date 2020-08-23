@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{2C03F948-0E34-487E-9590-42A0D60CBAA2}|DailyItinerary">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DailyItinerary/ClientApp/src/components/Setting.tsx">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DailyItinerary/ClientApp/src/components/FetchData.tsx">
     <Files>
-      <File FileName="DailyItinerary/ClientApp/src/App.tsx" Line="21" Column="1" />
-      <File FileName="DailyItinerary/ClientApp/src/store/Settings.ts" Line="38" Column="28" />
-      <File FileName="DailyItinerary/ClientApp/src/components/Setting.tsx" Line="57" Column="1" />
+      <File FileName="DailyItinerary/Startup.cs" Line="48" Column="34" />
+      <File FileName="DailyItinerary/Controllers/NewsController.cs" />
+      <File FileName="DailyItinerary/ClientApp/src/components/News.tsx" Line="33" Column="9" />
+      <File FileName="DailyItinerary/ClientApp/src/components/FetchData.tsx" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,18 +12,15 @@
           <Node name="DailyItinerary" expanded="True">
             <Node name="DailyItinerary" expanded="True">
               <Node name="ClientApp" expanded="True">
-                <Node name="public" expanded="True" />
                 <Node name="src" expanded="True">
                   <Node name="components" expanded="True">
-                    <Node name="Setting.tsx" selected="True" />
+                    <Node name="FetchData.tsx" selected="True" />
                   </Node>
                   <Node name="store" expanded="True" />
                   <Node name="App.tsx" expanded="True" />
                 </Node>
-                <Node name="package.json" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
