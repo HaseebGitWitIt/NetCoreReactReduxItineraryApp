@@ -12,56 +12,62 @@ type SettingProps =
     RouteComponentProps<{}>;
 
 
-class News extends React.PureComponent<SettingProps> {
+class News extends React.PureComponent<SettingProps, {articles: any[]}> {
+
+    constructor(props: any) {
+        super(props);
+        this.state = { articles: [] }
+    }
 
     componentDidMount() {
+        this.getNewsArticles();
+    }
+
+    getNewsArticles = (): void => {
         var newsTopics = this.props.newsTopics;
         var t = "";
         for (var topic in newsTopics) {
             t += "-" + newsTopics[topic];
         }
-        //fetch("news/" + t).then(response => response.json())
-        //    .then(data => {
-        //        console.log(data);
-        //    });
-
-    }
-
-    example = () => {
-        const [count, setCount] = React.useState(50);
-        return (
-            <h1>{count}</h1>
-        )
+        fetch("news/" + t).then(response => response.json())
+            .then(data => {
+                this.setState({ "articles": data });
+            });
     }
 
     public render() {
-        return this.example(
-        
-    //        <React.Fragment>
-    //            <Card style={{ width: '18rem' }}>
+        if (this.state.articles && this.state.articles.length > 0) {
 
-    //                <Card.Body>
-    //                    <Card.Title>Card Title</Card.Title>
-    //                    <Card.Text>
-    //                        Some quick example text to build on the card title and make up the bulk of
-    //                        the card's content.
-    //</Card.Text>
 
-    //                </Card.Body>
-    //            </Card>
-    //            <Card style={{ width: '18rem' }}>
+            return (
+                <React.Fragment>
+                    <Card style={{ width: '18rem' }}>
 
-    //                <Card.Body>
-    //                    <Card.Title>Card Title</Card.Title>
-    //                    <Card.Text>
-    //                        Some quick example text to build on the card title and make up the bulk of
-    //                        the card's content.
-    //</Card.Text>
+                        <Card.Body>
+                            <Card.Title>A Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+    </Card.Text>
 
-    //                </Card.Body>
-    //            </Card>
-    //        </React.Fragment>
-        //);
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+    </Card.Text>
+
+                        </Card.Body>
+                    </Card>
+                </React.Fragment>
+            );
+        } else {
+            return (<h1>Make sure you have news categories checked in settings!</h1>);
+        }
     }
 };
 
